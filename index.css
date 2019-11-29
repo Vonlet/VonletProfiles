@@ -1,0 +1,51 @@
+p{
+    font-size: 20px;
+}
+
+.box10{
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #00BCD4;
+  background: #e4fcff;
+  border-top: solid 6px #1dc1d6;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.32);
+}
+
+.box10 h1{
+  margin: 0;
+  padding: 0;
+}
+
+.box10 p{
+  margin: 0;
+  padding: 0;
+}
+
+.box-attention{
+  position: relative;
+  background: #f4d6da;
+  border: 3px double #da4033;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 20px 20px 5px 20px;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.32);
+}
+.box-attention::before{
+  content: "ATTENTION";
+  position: absolute;
+  background-color: #000000;
+  color: #da4033;
+  font-weight: bold;
+  left: 20px;
+  top: -23px;
+  padding: 0px;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.32);
+}
+
+.underground{
+  position: relative;
+}
+.underground p{
+  font-size: 45px;
+  color: #b40d0d;
+}
